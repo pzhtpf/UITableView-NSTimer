@@ -13,6 +13,7 @@
 		9202BE3E1D1CF6A2009EB41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9202BE3C1D1CF6A2009EB41D /* Main.storyboard */; };
 		9202BE401D1CF6A2009EB41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9202BE3F1D1CF6A2009EB41D /* Assets.xcassets */; };
 		9202BE431D1CF6A2009EB41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9202BE411D1CF6A2009EB41D /* LaunchScreen.storyboard */; };
+		9202BE4C1D1D2FBF009EB41D /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9202BE4B1D1D2FBF009EB41D /* customCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9202BE3F1D1CF6A2009EB41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9202BE421D1CF6A2009EB41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9202BE441D1CF6A2009EB41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9202BE4A1D1D2FBF009EB41D /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		9202BE4B1D1D2FBF009EB41D /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				9202BE371D1CF6A2009EB41D /* AppDelegate.m */,
 				9202BE391D1CF6A2009EB41D /* ViewController.h */,
 				9202BE3A1D1CF6A2009EB41D /* ViewController.m */,
+				9202BE4A1D1D2FBF009EB41D /* customCell.h */,
+				9202BE4B1D1D2FBF009EB41D /* customCell.m */,
 				9202BE3C1D1CF6A2009EB41D /* Main.storyboard */,
 				9202BE3F1D1CF6A2009EB41D /* Assets.xcassets */,
 				9202BE411D1CF6A2009EB41D /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				9202BE3B1D1CF6A2009EB41D /* ViewController.m in Sources */,
 				9202BE381D1CF6A2009EB41D /* AppDelegate.m in Sources */,
+				9202BE4C1D1D2FBF009EB41D /* customCell.m in Sources */,
 				9202BE351D1CF6A2009EB41D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
